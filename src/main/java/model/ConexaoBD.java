@@ -12,7 +12,7 @@ public class ConexaoBD {
     private static Connection connection;
     private static boolean conectado = false;
 
-
+    //Esta classe cuida da conexão do banco de dados
     public static void conectar() throws SQLException {
         if (!conectado) {
             connection = DriverManager.getConnection(url, user, password);
