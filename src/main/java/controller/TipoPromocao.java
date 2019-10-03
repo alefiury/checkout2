@@ -1,5 +1,5 @@
 package controller;
-
+//Tipos de promoções 
 public enum TipoPromocao {
     TRES_POR_130(1),
     DOIS_POR_45(2),
