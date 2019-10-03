@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 import static org.junit.Assert.*;
-
+//Classe responsável por realisar testes
 public class MainTest {
 
     @Before
