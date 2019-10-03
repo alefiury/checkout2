@@ -20,7 +20,7 @@ public class ConexaoBD {
         }
     }
 
-    
+    //Esta classe cuida da desconexão do banco de dados
     public static void desconectar() throws SQLException {
         if (conectado) {
             connection.close();
