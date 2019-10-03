@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
-
+//Classe que realiza o checkout
 public class Checkout {
     private int precoTotal;
     private int descontoTotal;
