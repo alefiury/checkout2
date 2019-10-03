@@ -1,7 +1,7 @@
 package controller;
 
 import java.util.ArrayList;
-
+//Classe descrevendo o produto
 public class Produto {
     private String nome;
     private int preco;
