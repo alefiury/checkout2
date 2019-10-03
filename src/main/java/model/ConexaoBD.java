@@ -27,7 +27,7 @@ public class ConexaoBD {
             conectado = false;
         }
     }
-
+    //Esta classe cuida de identificar se o banco de dados está conectado
     public static Connection getConnection() throws SQLException {
         if (connection == null || conectado == false) {
             conectar();
