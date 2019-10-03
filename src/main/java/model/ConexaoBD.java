@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+//Esta é a classe que cuida da conexão do banco de dados
 public class ConexaoBD {
     private static String url = "jdbc:postgresql://localhost:5432/banco_precos2";
     private static String user = "postgres";
@@ -19,6 +20,7 @@ public class ConexaoBD {
         }
     }
 
+    
     public static void desconectar() throws SQLException {
         if (conectado) {
             connection.close();
